@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    
+    
+
+    <header class="fixed-header">
+        <nav>
+            <ul>
+                <li><a href="#expandable-box">Home</a></li>
+                <li><a href="#section2">About</a></li>
+                <li><a href="#section3">Services</a></li>
+                <li><a href="#section4">Products</a></li>
+                <li><a href="#section5">Shop</a></li>
+                <li><a href="#section6">Payment Method</a></li>
+                <li><a href="#section7">Feedback</a></li>
+                <li><a href="#section8">Enquiry</a></li>
+                <li><a href="#section9">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <nav class="contact-nav">
+            <ul>
+                <a href="#"><img src="phone.png" alt="call"></a>
+                <a href="#"><img src="mail.png" alt="Twitter"></a>
+                <a href="#"><img src="insta.png" alt="Instagram"></a>
+                <a href="#"><img src="youtube.png" alt="YouTube"></a>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <section class="hero">
+        <div class="hero-box" id="expandable-box">
+            <h1>Welcome to Our Website</h1>
+            <p>Your success is our priority.</p>
+            <button onclick="toggleBox()">click to more about website</button>
+            <div class="extra-info">
+                <p>
+                    Welcome to [Your Website Name], your one-stop destination for premium accessories for cars, bikes, motorbikes, and EV bikes. We are dedicated to providing high-quality, stylish, and performance-driven accessories that enhance both the aesthetics and functionality of your vehicle.
+
+                    At [Your Website Name], we understand that every vehicle enthusiast seeks to personalize their ride, improve safety, and optimize performance. That’s why we offer an extensive collection of accessories, including protective gear, lighting solutions, interior and exterior styling upgrades, performance boosters, and essential add-ons tailored for all types of vehicles.
+                    
+                    For car owners, we provide a variety of interior and exterior enhancements such as seat covers, steering wheel grips, LED lights, roof racks, and premium sound systems. Bike and motorbike enthusiasts can find top-notch riding gear, helmets, saddlebags, grips, and modification kits to elevate their riding experience. If you're an eco-conscious rider with an EV bike, we offer innovative accessories designed to complement and enhance your electric two-wheeler's efficiency and style.
+                    
+                    Our mission is to offer products that combine durability, innovation, and affordability while ensuring customer satisfaction with every purchase. Whether you're a passionate rider, a car enthusiast, or an everyday commuter looking to upgrade your vehicle, [Your Website Name] has the perfect accessories to match your needs.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="about-us">
+        <div class="about-box">
+            <h1>About Us</h1>
+           
+            <button onclick="scrollToSection2()">Click Here To Scroll</button>
+        </div>
+    </section>
+
+    
+           
+        </div>
+    </section>
+    <section id="section2" class="slide">
+        <div class="about-us">
+            <div class="about-box">
+                <h2>About Us</h2>
+                <p>
+                    Welcome to our website! We are dedicated to providing the best services and products to our customers.
+                    Our team works tirelessly to ensure customer satisfaction and deliver exceptional quality.
+                    Thank you for choosing us!
+                </p>
+                <p>
+                    Our mission is to create value for our customers by offering innovative solutions and unparalleled
+                    service. We believe in building long-term relationships based on trust and excellence.
+                </p>
+            </div>
+        </div>
+        <div class="scroll-arrow" onclick="scrollToSection3()">
+            &#x2193; <!-- Downward arrow -->
+        </div>
+    </section>
+
+    <section id="section3" class="slide">
+        <div class="services">
+            <div class="services-box">
+                <h2>Our Services</h2>
+                <p>
+                    At [Your Company Name], we are passionate about providing top-quality accessories for bikes, cars, cycles, and EV bikes. Our goal is to enhance your riding and driving experience with high-performance, stylish, and durable products.
+                </p>
+                <p>
+                    We offer an extensive collection of accessories, including:
+
+Bikes & EV Bikes: Helmets, gloves, mobile holders, crash guards, LED lights, and more.
+
+Cars: Seat covers, floor mats, car organizers, air fresheners, and infotainment systems.
+
+Cycles: Bottle holders, saddlebags, safety lights, bells, and repair kits.
+                </p>
+            </div>
+        </div>
+        <div class="scroll-arrow" onclick="scrollToSection4()">
+            &#x2193; <!-- Downward arrow -->
+        </div>
+    </section>
+
+    <section id="section4" class="slide">
+    <div class="Products">
+        <div class="Products-box" id="product-box">
+            <h2>Our Products</h2>
+            <p>Welcome to our Product section, where you can find all the products you need.</p>
+            <p>Our products are sold all over India at sustainable prices.</p>
+            <button onclick="viewProduct()">View Product</button>
+        </div>
+        <div id="card-profiles" style="display: none; opacity: 0;">
+            <h1>Our Product</h1>
+            <div class="users">
+                <div class="user">
+                    <div class="user-img-wrap">
+                        <div class="user-img">
+                            <img src="./bike.png" alt="Mahesh">
+                        </div>
+                    </div>
+                    <div class="user-meta">
+                        <div class="user-name"> Moter Bikes  accessories</div>
+                        <div class="user-location">get all the  moter bikes  accessories</div>
+                        <div class="user-profiles">
+                           
+                        </div>
+                    </div>
+                </div>
+
+                
+                
+                <div class="user">
+                    <div class="user-img-wrap">
+                        <div class="user-img">
+                            <img src="./wing.png" alt="Mahesh">
+                        </div>
+                    </div>
+                    <div class="user-meta">
+                        <div class="user-name"> Cars  accessories</div>
+                        <div class="user-location">get all the Cars  accessories</div>
+                        <div class="user-profiles">
+                           
+                        </div>
+                    </div>
+                </div>
+
+                <div class="user">
+                    <div class="user-img-wrap">
+                        <div class="user-img">
+                            <img src="./paddle.png" alt="Mahesh">
+                        </div>
+                    </div>
+                    <div class="user-meta">
+                        <div class="user-name"> Bike  accessories</div>
+                        <div class="user-location">get all the bike  accessories</div>
+                        <div class="user-profiles">
+                           
+                        </div>
+                    </div>
+                </div>
+
+                <div class="user">
+                    <div class="user-img-wrap">
+                        <div class="user-img">
+                            <img src="./electric.png" alt="Mahesh">
+                        </div>
+                    </div>
+                    <div class="user-meta">
+                        <div class="user-name"> EV Bike  accessories</div>
+                        <div class="user-location">get all the EV Bike  accessories</div>
+                        <div class="user-profiles">
+                           
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more user cards here if needed -->
+            </div>
+        </div>
+
+        
+    </div>
+    <div class="scroll-up-arrow" onclick="scrollToTop()">
+        &#x2191; <!-- Upward arrow -->
+    </div>
+</section>
+
+<section id="section5" class="slide">
+    <div class="shop">
+        <h2>Shop</h2>
+        <p>Explore our wide range of products and shop for your needs.</p>
+        <button>Shop Now</button>
+    </div>
+    <div class="scroll-arrow" onclick="scrollToSection6()">&#x2193;</div>
+</section>
+
+<section id="section6" class="slide">
+    <div class="payment">
+        <h2>Payment Method</h2>
+        <p>Choose your preferred payment method for a seamless checkout experience.</p>
+        <div class="qr-code">
+            <img src="./qr.jpg" alt="QR Code for Payment">
+        </div>
+        <p>Scan the QR code above to make a payment.</p>
+        <button onclick="scrollToSection7()">Go to Feedback</button>
+    </div>
+    <div class="scroll-arrow" onclick="scrollToSection7()">&#x2193;</div>
+<script>
+    function scrollToSection7() {
+        document.getElementById('section7').scrollIntoView({ behavior: 'smooth' });
+    }
+</script>
+
+<section id="section7" class="slide">
+    <div class="feedback">
+        <h2>Feedback</h2>
+        <p>We value your feedback. Let us know how we can improve!</p>
+        <textarea placeholder="Write your feedback here..."></textarea>
+        <button>Feedback Submited</button>
+        
+    </div>
+    <div class="scroll-arrow" onclick="scrollToSection8()">&#x2193;</div>
+</section>
+
+<section id="section8" class="slide">
+    <div class="enquiry">
+        <h2>Enquiry</h2>
+        <p>Have questions? Submit your enquiry below.</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Enquiry" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <button onclick="scrollToSection9()">Go to Contact</button>
+    </div>
+    <div class="scroll-arrow" onclick="scrollToSection9()">&#x2193;</div>
+</section>
+
+<section id="section9" class="slide">
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch with us for any assistance or support.</p>
+        <ul>
+            <li><strong>Phone:</strong> +91 1234567890</li>
+            <li><strong>Email:</strong> support@example.com</li>
+            <li><strong>Address:</strong> Mumbai, Maharashtra, India</li>
+        </ul>
+        <button onclick="scrollToTop()">Back to Top</button>
+    </div>
+</section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
